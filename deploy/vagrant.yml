@@ -1,0 +1,15 @@
+default:
+    project: moron
+    repo_url: https://github.com/linked/rails-moron-dummy.git
+    shell: /bin/bash -l -c
+    directory: /www/moron
+    user: vagrant
+    key_filename: /Library/Ruby/Gems/1.8/gems/vagrant-0.7.6/keys/vagrant
+    process_owner: vagrant
+    unicorn_port: 8888
+    hosts: 
+      - 127.0.0.1:20202
+
+app:
+    hosts: 
+      - 127.0.0.1:20202

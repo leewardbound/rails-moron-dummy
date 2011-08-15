@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  thinking_of: 
+  guess: 1
+
+two:
+  thinking_of: 
+  guess: 1

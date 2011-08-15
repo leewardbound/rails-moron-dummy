@@ -1,0 +1,8 @@
+[program:unicorn]
+command=unicorn_rails -c deploy/unicorn.rb
+directory=/www/rails
+user=www-data
+autostart=true
+autorestart=true
+stdout_logfile=/www/logs/supervisord.log
+redirect_stderr=true

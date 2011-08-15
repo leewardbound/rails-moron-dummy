@@ -1,0 +1,2 @@
+module ThinkingOfsHelper
+end
